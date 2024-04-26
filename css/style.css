@@ -3,6 +3,45 @@ body {
     color: #444444;
 }
 
+p {
+    text-align: justify;
+}
+
+.section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    margin-top: 30px;
+  }
+
+.section-title h3 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+    color: #3b434a;
+    position: relative;
+    z-index: 2;
+  }
+
+.section-title span {
+    position: absolute;
+    top: 30px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+    
+}
+
+/* ---- INTRO ---- */
+
+
 #intro {
     width: 100%;
     height: 100vh;
@@ -31,47 +70,103 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+}
   
-  #intro h1 {
+#intro h1 {
     margin-bottom: 15px;
     font-size: 64px;
     font-family: "Satisfy", sans-serif;
     color: #fff;
-  }
+}
   
-  #intro h2 {
+#intro h2 {
     color: #eee;
     margin-bottom: 50px;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-  }
+}
 
-  section {
-    padding: 60px 0;
-  }
 
-  h3 {
-    text-align: center;
-    padding: 30px 0;
-    position: relative;
-    color: #ffb727;
-    margin-bottom: 20px;
-  }
+/* ---- PRESENTATION ---- */
 
-  #about .container ul {
+
+#about .container ul {
     list-style: none;
     padding: 0;
-  }
+}
 
-  #about .container ul li {
+#about .container ul li {
     margin-top: 15px;
-  }
+}
 
-  #about .container ul i{
+#about .container ul i{
     color: #ffb727;
-  }
+}
 
 
+/* ---- EXPERIENCE ET FORMATION ---- */
+
+  
+#experience,
+#education {
+    max-width: 800px;
+    margin: auto; /* pour centrer horizontalement la section */
+}
+
+#experience .resume-item,
+#education .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #82909c;
+    position: relative;
+}
+
+#experience .resume-item h4,
+#education .resume-item h4 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffb727;
+    margin-bottom: 10px;
+}
+  
+#experience .resume-item h5,
+#education .resume-item h5 {
+    font-size: 16px;
+    background: #eef0f2;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  
+#experience .resume-item ul,
+#education .resume-item ul {
+    padding-left: 20px;
+}
+
+#experience .resume-item ul li,
+#education .resume-item ul li {
+    padding-bottom: 10px;
+}
+  
+#experience .resume-item:last-child,
+#education .resume-item:last-child {
+    padding-bottom: 0;
+}
+  
+#experience .resume-item::before,
+#education .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #82909c;
+}
