@@ -21,7 +21,7 @@ Ce projet a été réalisé en utilisant les technologies suivantes :
 
 ## Démo
 
-Vous pouvez consulter la version en ligne de mon CV [ici](lien_vers_votre_cv_en_ligne).
+Vous pouvez consulter la version en ligne de mon CV [ici](https://fannygeoffray.github.io).
 
 ## Contact
 
