@@ -4,11 +4,11 @@ Bienvenue sur le dépôt de mon CV en ligne ! Ce projet est une version numériq
 
 ## Fonctionnalités
 
-- **Présentation**
-- **Expériences Professionnelles**
-- **Formations**
-- **Projets**
-- **Contact**
+- Présentation
+- Expériences Professionnelles
+- Formations
+- Projets
+- Contact
 
 ## Technologies utilisées
 
