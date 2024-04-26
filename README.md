@@ -7,7 +7,6 @@ Bienvenue sur le dépôt de mon CV en ligne ! Ce projet est une version numériq
 - **Présentation**
 - **Expériences Professionnelles**
 - **Formations**
-- **Compétences**
 - **Projets**
 - **Contact**
 
@@ -17,7 +16,7 @@ Ce projet a été réalisé en utilisant les technologies suivantes :
 
 - HTML5
 - CSS3
-- JavaScript
+- Bootstrap
 
 ## Démo
 
