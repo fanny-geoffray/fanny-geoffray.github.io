@@ -36,6 +36,18 @@ body {
     background-color: rgba(255, 183, 39, 0.6);
 }
 
+@media screen and (max-width: 768px) {
+    
+    #navbar ul {
+        padding-left: 0;
+    }
+    
+    #navbar ul li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+}
+
 
 /* ---- SECTION ---- */
 
