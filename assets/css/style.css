@@ -3,11 +3,9 @@ body {
     color: #444444;
 }
 
-p {
-    text-align: justify;
-}
 
 /* ---- NAVBAR ---- */
+
 
 #navbar {
     text-align: center;
@@ -38,15 +36,17 @@ p {
     background-color: rgba(255, 183, 39, 0.6);
 }
 
+
 /* ---- SECTION ---- */
+
 
 .section-title {
     text-align: center;
     padding: 30px 0;
     position: relative;
     margin-top: 30px;
-  }
-
+}
+  
 .section-title h3 {
     font-size: 32px;
     font-weight: 700;
@@ -56,8 +56,8 @@ p {
     color: #3b434a;
     position: relative;
     z-index: 2;
-  }
-
+}
+  
 .section-title span {
     position: absolute;
     top: 30px;
@@ -69,8 +69,8 @@ p {
     font-size: 52px;
     text-transform: uppercase;
     line-height: 0;
-    
 }
+
 
 /* ---- INTRO ---- */
 
@@ -138,6 +138,10 @@ p {
     color: #ffb727;
 }
 
+#about .container p {
+    text-align: justify;
+}
+
 
 /* ---- EXPERIENCE ET FORMATION ---- */
 
@@ -145,7 +149,7 @@ p {
 #experience,
 #education {
     max-width: 800px;
-    margin: auto; /* pour centrer horizontalement la section */
+    margin: auto;
 }
 
 #experience .resume-item,
@@ -202,4 +206,18 @@ p {
     top: 0;
     background: #fff;
     border: 2px solid #82909c;
+}
+
+
+/* ---- FOOTER ---- */
+
+
+footer {
+    background-color: grey;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    text-align: center;
 }
