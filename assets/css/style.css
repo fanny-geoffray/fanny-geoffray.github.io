@@ -3,13 +3,42 @@ body {
     color: #444444;
 }
 
-#navbar .navbar-nav .nav-link {
-    font-size: 18px;
-}
-
 p {
     text-align: justify;
 }
+
+/* ---- NAVBAR ---- */
+
+#navbar {
+    text-align: center;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+#navbar ul {
+    margin-bottom: 0;
+}
+
+#navbar ul li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444444;
+}
+
+#navbar ul li a:hover {
+    background-color: rgba(255, 183, 39, 0.6);
+}
+
+/* ---- SECTION ---- */
 
 .section-title {
     text-align: center;
