@@ -17,7 +17,8 @@ body {
 }
 
 #navbar ul {
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #navbar ul li {
@@ -34,6 +35,13 @@ body {
 
 #navbar ul li a:hover {
     background-color: rgba(255, 183, 39, 0.6);
+    border-radius: 8px;
+}
+
+#navbar ul li.cv-link {
+    color: #444444; /* Couleur spécifique pour le lien du CV PDF */
+    background-color: rgba(255, 183, 39, 0.6);
+    border-radius: 8px;
 }
 
 @media screen and (max-width: 768px) {
