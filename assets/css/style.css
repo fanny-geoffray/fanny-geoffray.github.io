@@ -39,7 +39,7 @@ body {
 }
 
 #navbar ul li.cv-link {
-    color: #444444; /* Couleur spécifique pour le lien du CV PDF */
+    color: #444444;
     background-color: rgba(255, 183, 39, 0.6);
     border-radius: 8px;
 }
@@ -272,8 +272,7 @@ footer p {
 
     .portfolio-item {
         padding: 5px;
-        margin-bottom: 30px;
+        width: 100%; /* Utilisation de 100% pour la largeur */
     }
-
 
 }
