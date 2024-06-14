@@ -44,13 +44,6 @@ body {
     border-radius: 8px;
 }
 
-@media screen and (max-width: 768px) {
-    
-    #navbar ul {
-        padding-left: 0;
-    }
-}
-
 
 /* ---- SECTION ---- */
 
@@ -266,4 +259,21 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+
+/* ---- RESPONSIVE ---- */
+
+@media screen and (max-width: 768px) {
+    
+    #navbar ul {
+        padding-left: 0;
+    }
+
+    .portfolio-item {
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+
 }
