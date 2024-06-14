@@ -41,11 +41,6 @@ body {
     #navbar ul {
         padding-left: 0;
     }
-    
-    #navbar ul li {
-        display: inline-block;
-        margin-right: 10px;
-    }
 }
 
 
@@ -217,6 +212,37 @@ body {
     top: 0;
     background: #fff;
     border: 2px solid #82909c;
+}
+
+/* ---- PORTFOLIO ---- */
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1.5px solid #ccc;
+    padding: 10px;
+    width: 600px; 
+    text-decoration: none;
+    color: #444444;
+}
+
+.portfolio-item:hover .portfolio-img img {
+    transform: scale(1.1);
+}
+
+.portfolio-img {
+    overflow: hidden;
+}
+
+.portfolio-img img {
+    transition: 0.3s ease;
+}
+
+.portfolio-item h4 {
+    margin-top: 15px;
 }
 
 
