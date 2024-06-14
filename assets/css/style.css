@@ -235,6 +235,7 @@ body {
     width: 600px; 
     text-decoration: none;
     color: #444444;
+    margin-bottom: 60px;
 }
 
 .portfolio-item:hover .portfolio-img img {
